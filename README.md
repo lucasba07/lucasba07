@@ -1,16 +1,35 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://i.pinimg.com/originals/0f/25/e4/0f25e4668c1c7740b5ed41835339d67f.gif" alt="Software Developer">
+</div>
 
-<!--
-**lucasba07/lucasba07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 🚀 Hi, I am Lucas Batista - Undergraduate student in Software Engineering
+## About me
 
-Here are some ideas to get you started:
+✨ I am currently pursuing a degree in Software Engineering at the Federal University of Goiás (UFG). I enjoy building projects, learning new technologies, and solving real-world problems through code. ✨
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Habilidades Tecnológicas
+
+💻 Aqui estão algumas das tecnologias em que tenho conhecimento:
+
+-  Linguagens de Programação: 
+
+    [![My Skills](https://skillicons.dev/icons?i=java,javascript,golang)](https://skillicons.dev)
+- Frameworks e Bibliotecas: 
+
+    [![My Skills](https://skillicons.dev/icons?i=spring,react,next)](https://skillicons.dev)
+- Dados: 
+
+    [![My Skills](https://skillicons.dev/icons?i=postgresql)](https://skillicons.dev)
+- Ferramentas e Tecnologias: 
+
+    [![My Skills](https://skillicons.dev/icons?i=github,visualstudio,eclipse,figma)](https://skillicons.dev)
+- Desenvolvimento Web:
+
+    [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev) 
+
+## Vamos Criar Algo Incrível! 💫
+
+💬 Quer colaborar em um projeto criativo e inovador? Estou sempre aberto a novas ideias e parcerias. Entre em contato comigo para discutirmos como podemos criar algo verdadeiramente extraordinário juntos. ✉️
+
+## Vamos Conectar!
+
