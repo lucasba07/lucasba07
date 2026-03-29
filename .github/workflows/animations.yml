@@ -1,0 +1,78 @@
+name: Generate Animations (Snake + Pac-Man)
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # roda todo dia
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate-animations:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 📥 1. Checkout do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # ⚙️ 2. Setup Node (alguns actions precisam)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      # 🧠 3. Cache (melhora performance)
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-cache-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-cache-
+
+      # 🐍 4. Gerar Snake (vários formatos)
+      - name: Generate Snake Animations
+        uses: Platane/snk@v3
+        with:
+          github_user_name: lucasba07
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark&color_snake=blue
+            dist/snake-light.svg?palette=github-light&color_snake=green
+            dist/snake.gif
+
+      # 🟡 5. Gerar Pac-Man
+      - name: Generate Pac-Man Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: lucasba07
+
+      # 📂 6. Organizar arquivos do Pac-Man
+      - name: Move Pac-Man files
+        run: |
+          mkdir -p dist
+          cp -r pacman-contribution-graph.svg dist/ || true
+
+      # 🧹 7. Limpeza (evita lixo no build)
+      - name: Clean unnecessary files
+        run: |
+          rm -rf node_modules || true
+
+      # 🚀 8. Deploy para branch "output"
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update animations (snake + pacman)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ✅ 9. Confirmação final
+      - name: Done
+        run: echo "Animations generated successfully 🚀"
