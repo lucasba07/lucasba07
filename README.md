@@ -117,38 +117,6 @@ quote: "Your focus determines your reality." — Qui-Gon Jinn
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucasba07/lucasba07/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucasba07/lucasba07/output/snake-dark.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/lucasba07/lucasba07/output/snake-dark.svg" />
-</picture>
-
-</div>
-
-<br/>
-
----
-
-## 👾 Pac-Man Contribution Graph
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucasba07/lucasba07/output/pacman-contribution-graph.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucasba07/lucasba07/output/pacman-contribution-graph.svg" />
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lucasba07/lucasba07/output/pacman-contribution-graph.svg" />
-</picture>
-
-</div>
-
-<br/>
-
----
-
 <div align="center">
 
 ```
