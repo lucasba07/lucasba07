@@ -28,7 +28,7 @@ education:
     school:  IF Goiano — Campus Trindade
     status:  ✅ Completed
 
-  - degree:  Bachelor's in Software Engineering (1st semester)
+  - degree:  Bachelor's in Software Engineering (2nd semester)
     school:  Federal University of Goiás (UFG)
     status:  🔄 In progress
 
@@ -125,6 +125,6 @@ quote: "Your focus determines your reality." — Qui-Gon Jinn
 
 <br/>
 
-<sub>⚡ First semester. Long journey ahead. This is just the beginning.</sub>
+<sub>⚡ Second semester. Long journey ahead. This is just the beginning.</sub>
 
 </div>
